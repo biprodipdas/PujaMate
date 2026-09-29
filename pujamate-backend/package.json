@@ -1,0 +1,33 @@
+{
+  "name": "pujamate-backend",
+  "version": "1.0.0",
+  "description": "PujaMate Express/Node.js API backend (raw SQL via pg, Neon PostgreSQL, JWT auth)",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "migrate": "node scripts/runMigrations.js",
+    "seed:pujas": "node scripts/seedPujas2026.js",
+    "seed:blogs": "node scripts/seedBlogs.js",
+    "seed:verify-2026": "node scripts/verifyPujas2026.js",
+    "seed:all": "npm run seed:pujas && npm run seed:verify-2026 && npm run seed:blogs"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "compression": "^1.8.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "helmet": "^7.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "morgan": "^1.10.0",
+    "pg": "^8.11.5",
+    "web-push": "^3.6.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

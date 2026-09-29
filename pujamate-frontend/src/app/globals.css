@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-vermilion: #E32636;
+  --color-marigold: #FFC000;
+  --color-crimson: #900C3F;
+  --app-bg: 255 249 239;
+  --app-surface: 255 255 255;
+  --app-text: 45 12 16;
+  --app-border: 144 12 63;
+  --app-gold: 244 196 48;
+  --app-accent: 144 12 63;
+
+  /* Font Overrides for Agamoni Bengali Typography */
+  --font-heading-b: 'Baloo Da 2', serif;
+  --font-subheading-b: 'Baloo Da 2', sans-serif;
+  --font-body-b: 'Plus Jakarta Sans', sans-serif;
+}
+
+/* Agamoni Inspired Dark Theme Palette */
+.dark {
+  --app-bg: 25 2 4;           /* Deep Crimson Maroon (#190204) */
+  --app-surface: 43 6 10;       /* Translucent Dark Maroon (#2B060A) */
+  --app-text: 255 248 240;      /* Soft Warm White (#FFF8F0) */
+  --app-border: 226 177 60;     /* Traditional Gold Border (#E2B13C) */
+  --app-gold: 226 177 60;       /* Rich Agamoni Gold (#E2B13C) */
+  --app-accent: 139 0 0;        /* Royal Red Accent (#8B0000) */
+}
+
+.light {
+  --app-bg: 255 249 239;
+  --app-surface: 255 255 255;
+  --app-text: 45 12 16;
+  --app-border: 144 12 63;
+  --app-gold: 244 196 48;
+  --app-accent: 144 12 63;
+}
+
+html { scroll-behavior: smooth; }
+html, body { background: rgb(var(--app-bg)); color: rgb(var(--app-text)); }
+body { min-height: 100vh; }
+
+/* Agamoni Ambient Background Glow for Dark Mode */
+.dark body {
+  background-image: 
+    radial-gradient(circle at 50% 0%, rgba(139, 0, 0, 0.45) 0%, transparent 60%),
+    radial-gradient(circle at 85% 30%, rgba(226, 177, 60, 0.08) 0%, transparent 45%);
+  background-attachment: fixed;
+}
+
+* { box-sizing: border-box; }
+
+body, body * { transition: background-color .22s ease, border-color .22s ease, color .22s ease, box-shadow .22s ease; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: .001ms !important; animation-iteration-count: 1 !important; transition-duration: .001ms !important; scroll-behavior: auto !important; }
+}
+
+.dark .bg-white { background-color: rgb(var(--app-surface) / .7); }
+.dark .border-crimson-100 { border-color: rgb(var(--app-border) / .25); }
+.dark .bg-crimson-50 { background-color: rgb(226 177 60 / .08); }
+.dark .text-crimson, .dark .text-crimson-700 { color: rgb(var(--app-gold)); }
+
+@layer utilities {
+  .font-heading { font-family: var(--font-heading-b), serif; }
+  .font-subheading { font-family: var(--font-subheading-b), sans-serif; }
+  .font-body { font-family: var(--font-body-b), sans-serif; }
+
+  .text-festive-gradient {
+    background: linear-gradient(135deg, #FFE89C 0%, #E2B13C 50%, #E32636 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+  }
+
+  .focus-ring:focus-visible { outline: 2px solid var(--app-gold); outline-offset: 3px; }
+
+  /* Agamoni Style Cards & Borders */
+  .surface-card {
+    @apply rounded-3xl border bg-app-surface shadow-sm;
+    border-color: rgb(var(--app-border) / .2);
+  }
+
+  .glass-card {
+    @apply rounded-3xl border backdrop-blur-xl;
+    background: rgb(var(--app-surface) / .65);
+    border-color: rgb(var(--app-border) / .25);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.35);
+  }
+
+  .glass-card:hover {
+    border-color: rgb(var(--app-border) / .5);
+    box-shadow: 0 0 20px rgba(226, 177, 60, 0.15);
+  }
+
+  .muted { color: rgb(var(--app-text) / .7); }
+}
+/* Full-width map workspace: escapes the narrow content column only for the
+   route-planner shell while leaving every other page at the existing width. */
+.route-planner-shell {
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+}

@@ -1,0 +1,24 @@
+{
+  "id": "/",
+  "name": "PujaMate — Kolkata Durga Puja Companion",
+  "short_name": "PujaMate",
+  "description": "Explore 2026 Kolkata Puja pandals, Metro and Bus routes, crowd reports, Puja stories and community photos.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#140505",
+  "theme_color": "#7b1224",
+  "lang": "en-IN",
+  "categories": ["travel", "navigation", "lifestyle"],
+  "prefer_related_applications": false,
+  "icons": [
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Metro Route", "short_name": "Metro", "url": "/metro", "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Bus Route", "short_name": "Bus", "url": "/bus", "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Puja Blog", "short_name": "Blog", "url": "/blog", "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }] }
+  ]
+}
