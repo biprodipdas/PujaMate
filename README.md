@@ -1,222 +1,342 @@
-🪔 PujaMate   
-Your Complete Durga Puja Companion   
-PujaMate is a web-based Durga Puja discovery and planning platform designed to help people explore pandals, plan their Puja trips, find travel information, and share their Puja experiences. Instead of using multiple sources to search for pandals, routes, transport information, crowd updates, and Puja experiences, PujaMate brings these features together in one place.   
+# 🪔 PujaMate
 
-🌟 What is PujaMate?   
-Durga Puja is one of the biggest festivals in Kolkata and West Bengal. During Puja, people often visit multiple pandals in a single day, which makes planning the journey difficult. PujaMate is built to make that experience easier.   
+### Your Complete Durga Puja Companion
 
-With PujaMate, users can:   
+PujaMate is a web-based Durga Puja discovery and planning platform designed to help people explore pandals, plan their Puja trips, find travel information, and share their Puja experiences.
 
-🔎 Discover Durga Puja pandals   
+Instead of using multiple sources to search for pandals, routes, transport information, crowd updates, and Puja experiences, PujaMate brings these features together in one place.
 
-🗺️ Explore pandals on an interactive map   
+---
 
-📍 Find nearby pandals using location   
+## 🌟 What is PujaMate?
 
-🧭 Plan a multi-pandal route   
+Durga Puja is one of the biggest festivals in Kolkata and West Bengal. During Puja, people often visit multiple pandals in a single day, which makes planning the journey difficult.
 
-🚇 Explore Metro routes and nearby pandals   
+**PujaMate is built to make that experience easier.**
 
-🚌 Explore Bus routes and stops   
+With PujaMate, users can:
 
-👥 Check community-based crowd reports   
+- 🔎 Discover Durga Puja pandals
+- 🗺️ Explore pandals on an interactive map
+- 📍 Find nearby pandals using location
+- 🧭 Plan a multi-pandal route
+- 🚇 Explore Metro routes and nearby pandals
+- 🚌 Explore Bus routes and stops
+- 👥 Check community-based crowd reports
+- 📸 Share Puja photos with the community
+- ❤️ Save favourite pandals
+- 📍 Mark pandals as visited
+- ✍️ Read and share Puja stories
+- ➕ Suggest missing pandals
+- 🚻 Find important facilities near pandals
+- 🍴 Explore nearby food options
+- 📱 Install the application as a PWA
 
-📸 Share Puja photos with the community   
+---
 
-❤️ Save favourite pandals   
+# 🚀 Key Features
 
-📍 Mark pandals as visited   
+## 🗺️ 1. Pandal Explorer
 
-✍️ Read and share Puja stories   
+Discover Durga Puja pandals through an interactive map.
 
-➕ Suggest missing pandals   
+Users can explore pandals by location/area and view important information such as:
 
-🚻 Find important facilities near pandals   
+- Pandal name
+- Location
+- Description
+- Photos
+- Rating
+- Crowd information
+- Nearby facilities
+- Transport information
 
-🍴 Explore nearby food options   
+PujaMate is designed with a **Kolkata-first, Bengal-wide exploration approach**, allowing users to explore Kolkata and other supported areas.
 
-📱 Install the application as a PWA   
+---
 
-🚀 Key Features   
-🗺️ 1. Pandal Explorer   
-Discover Durga Puja pandals through an interactive map. Users can explore pandals by location/area and view important information such as:   
+## 📍 2. Near Me & Explore Mode
 
-Pandal name & Location   
+Users can choose between two ways to explore.
 
-Description & Photos   
+### Near Me
 
-Rating & Crowd information   
+If location permission is enabled, PujaMate can help users find nearby pandals based on their current location.
 
-Nearby facilities & Transport info   
+### Explore Mode
 
-PujaMate is designed with a Kolkata-first, Bengal-wide exploration approach, allowing users to explore Kolkata and other supported areas.   
+Location permission is **not required** to explore the application.
 
-📍 2. Near Me & Explore Mode   
-Users can choose between two ways to explore:   
+Users can manually select an area and browse available pandals.
 
-Near Me: If location permission is enabled, find nearby pandals based on your current location.   
+This makes PujaMate useful even when location access is unavailable.
 
-Explore Mode: Location permission is not required. Manually select an area and browse available pandals even when location access is unavailable.
+---
 
-🧭 3. Route Planner
-Plan a complete Puja-hopping journey using our multi-stop route planner:
+## 🧭 3. Route Planner
 
-Plaintext
-Start ➔ Stop 1 ➔ Stop 2 ➔ Stop 3 ➔ Destination
-The route planner supports different travel modes: 🚶 Walking | 🚗 Driving | 🚲 Cycling | 🚇 Transit.
+Plan a complete Puja-hopping journey.
 
-🚇 4. Metro Route
-Explore Kolkata Metro information while planning your Puja trip:
+Users can create a route using:
 
-Browse Metro lines & stations
+```text
+Start
+   ↓
+Stop 1
+   ↓
+Stop 2
+   ↓
+Stop 3
+   ↓
+Destination
 
-Find nearby pandals and check distance from stations
 
-Use Metro data directly while planning a route
+## 🚇 4. Metro Route
 
-🚌 5. Bus Route
-Get bus route and stop information to plan your journey effectively:
+Explore Kolkata Metro information while planning your Puja trip.
 
-Explore bus routes and important stops
+Users can:
 
-Find nearby pandals via route-based planning (Note: No fake real-time bus tracking).
+Browse Metro lines
+Explore stations
+Find nearby pandals
+Check distance from stations
+Use Metro information while planning a route
 
-👥 6. Crowd Reality
-Instead of displaying fake live crowd statuses, PujaMate focuses on community-based crowd reports submitted by recent visitors.
+## 🚌 5. Bus Route
 
-📸 7. Community Photo Wall
-Share your Puja experiences with the community by uploading photos, adding captions, tagging pandals, and exploring other visitors' memories.
+PujaMate also provides bus route and stop information to help users plan their journey.
 
-❤️ 8. Save & Visited Pandals
-Keep track of your journey:
+Users can explore:
 
-Save: Bookmark pandals you want to visit later.
+Bus routes
+Important stops
+Nearby pandals
+Route-based Puja planning
 
-Visited: Mark pandals after actually visiting them to keep a personal record.
+PujaMate does not claim to provide fake real-time bus tracking or arrival information.
 
-🧭 9. Next Pandal
-After visiting a pandal, PujaMate uses your visited history to streamline your next-pandal experience organically.
+## 👥 6. Crowd Reality
 
-🚻 10. Essential Facilities
-Plan ahead by checking nearby essential amenities around pandals:
-🚽 Toilet | 🏥 Medical | 🅿️ Parking | 🪑 Seating | 🚇 Metro | 🚌 Bus
+Instead of displaying fake live crowd information, PujaMate focuses on community-based crowd reports.
 
-🍴 11. Food Nearby
-Explore food and dining options around a pandal or selected location to plan a complete Puja outing.
+Users can check recent crowd reports submitted by visitors.
 
-✍️ 12. Puja Blog
-Read and share Puja-related experiences, visitor guides, local recommendations, and stories.
+If there is no recent report, the application does not present it as a current live crowd status.
 
-➕ 13. Suggest Missing Pandal
-Help improve the community database over time via a simple contribution flow:
-Suggest Missing Pandal ➔ Add Location ➔ Add Details ➔ Submit ➔ Verification
+## 📸 7. Community Photo Wall
 
-🔐 User Account & PWA
-Create an account to access personalized features like saved pandals, visited lists, saved routes, and community posts. PujaMate is built as a Progressive Web App (PWA), allowing you to install it on your device for a native app-like experience.
+PujaMate allows users to share their Puja experiences with the community.
 
-🏗️ Project Architecture
-Plaintext
-               PujaMate
-                  │
-       ┌──────────┴──────────┐
-       │                     │
-    Frontend              Backend
-       │                     │
-    Next.js                Express
-       │                     │
-    React                    │
-       │                     │
-    Tailwind                 │
-       │                     │
-    Mapbox                   │
-       │                     │
-       └──────── API ────────┘
-                             │
-                             ↓
-                      PostgreSQL
-                             │
-                             ↓
-                      Neon Database
-🛠️ Tech Stack
-Frontend: Next.js, React, Tailwind CSS, Mapbox, PWA
+Users can:
 
-Backend: Node.js, Express.js, REST APIs, JWT Authentication
+Upload Puja photos
+Add captions
+Tag pandals
+Explore photos shared by other visitors
 
-Database: PostgreSQL (Neon PostgreSQL)
+This creates a community-driven Puja experience.
 
-Deployment: Vercel (Frontend) | Render (Backend)
+## ❤️ 8. Save & Visited Pandals
 
-📂 Project Structure
-Plaintext
+Users can keep track of their Puja journey.
+
+Save
+
+Save pandals that they want to visit later.
+
+Visited
+
+Mark pandals after actually visiting them.
+
+This helps users keep a personal record of their Puja exploration.
+
+## 🧭 9. Next Pandal
+
+After visiting a pandal, PujaMate can use the user's visited information to support the next-pandal experience.
+
+The feature is designed around the user's actual Puja journey rather than pretending to know where the user has already visited.
+
+## 🚻 10. Essential Facilities
+
+Pandal information can include useful facilities such as:
+
+🚻 Toilet
+🏥 Medical
+🅿️ Parking
+🪑 Seating
+🚇 Metro
+🚌 Bus
+
+This helps users plan not only where to go, but also what facilities may be available around the pandal.
+
+## 🍴 11. Food Nearby
+
+Users can explore food options around a pandal or selected location.
+
+This can be useful when planning a complete Puja outing instead of only visiting pandals.
+
+## ✍️ 12. Puja Blog
+
+PujaMate includes a Puja Blog where users can read and share Puja-related experiences and stories.
+
+The blog can include:
+
+Visitor experiences
+Puja guides
+Local recommendations
+Puja stories
+
+## ➕ 13. Suggest Missing Pandal
+
+If a user finds a Puja pandal that is not available in the application, they can suggest it.
+
+The flow is:
+
+Suggest Missing Pandal
+        ↓
+Add Location
+        ↓
+Add Details
+        ↓
+Submit
+        ↓
+Verification
+
+## 🔐 User Account
+
+Users can create an account and log in to access personalized features such as:
+
+❤️ Saved Pandals
+📍 Visited Pandals
+🧭 Saved Routes
+📸 Community participation
+✍️ User content
+
+## 📱 Progressive Web App (PWA)
+
+PujaMate is designed as a Progressive Web App.
+
+Users can access it from the web and, where supported, install it on their device for an app-like experience.
+
+## 🏗️ Project Architecture
+
+PujaMate uses a separate frontend and backend architecture.
+
+                PujaMate
+                   │
+        ┌──────────┴──────────┐
+        │                     │
+     Frontend              Backend
+        │                     │
+     Next.js                Express
+        │                     │
+     React                    │
+        │                     │
+     Tailwind                 │
+        │                     │
+     Mapbox                   │
+        │                     │
+        └──────── API ────────┘
+                              │
+                              ↓
+                       PostgreSQL
+                              │
+                              ↓
+                       Neon Database
+
+## 🛠️ Tech Stack
+
+### Frontend
+Next.js
+React
+Tailwind CSS
+Mapbox
+Progressive Web App (PWA)
+
+### Backend
+Node.js
+Express.js
+REST APIs
+JWT Authentication
+
+### Database
+PostgreSQL
+Neon PostgreSQL
+
+### Deployment
+Frontend: Vercel
+Backend: Render
+Database: Neon PostgreSQL
+
+## 📂 Project Structure
 PujaMate/
 │
 ├── pujamate-frontend/
 │   ├── src/
 │   ├── public/
-│   └── package.json
+│   ├── package.json
+│   └── ...
 │
 ├── pujamate-backend/
 │   ├── src/
 │   ├── scripts/
 │   ├── migrations/
-│   └── package.json
+│   ├── package.json
+│   └── ...
 │
+├
 └── README.md
-⚙️ Local Development
-1. Clone the repository
-Bash
-git clone https://github.com/biprodipdas/PujaMate.git
-cd PujaMate
-2. Run the Frontend
-Bash
-cd pujamate-frontend
-npm install
-npm run dev
-(Runs on http://localhost:3000)
 
-3. Run the Backend
-Bash
-cd pujamate-backend
-npm install
-npm start
-(Runs on http://localhost:4000)
+## 🔑 Environment Variables
 
-🔑 Environment Variables
-Create .env files locally based on your configuration examples:
+For security reasons, actual environment variables and secrets are not included in this repository.
 
-Frontend (.env.local):
+Create the required .env files locally using the project's environment variable examples.
 
-Code snippet
-NEXT_PUBLIC_API_URL=http://localhost:4000
+Typical configuration includes:
+
+### Frontend
+NEXT_PUBLIC_API_URL=
 NEXT_PUBLIC_APP_NAME=PujaMate
-NEXT_PUBLIC_MAPBOX_TOKEN=your_mapbox_token
-Backend (.env):
+NEXT_PUBLIC_MAPBOX_TOKEN=
 
-Code snippet
+### Backend
 PORT=4000
 NODE_ENV=development
-DATABASE_URL=your_neon_postgres_url
-JWT_SECRET=your_jwt_secret
-🌏 Vision & Roadmap
-Starting with a Kolkata-first approach, expanding across West Bengal:
+DATABASE_URL=
+JWT_SECRET=
 
-Kolkata ➔ Howrah ➔ Hooghly ➔ Serampore ➔ Chandannagar ➔ More Destinations
+## 🎯 Project Goal
 
-🪔 PujaMate 2026
+The goal of PujaMate is simple:
+
+Make exploring Durga Puja easier, more organized, and more enjoyable.
+
+Instead of searching for pandals, transport information, routes, crowd updates, facilities, and Puja experiences across different platforms, PujaMate brings these experiences together into one application.
+
+## 🪔 PujaMate 2026
 Discover • Plan • Explore • Celebrate
 
 Your Puja journey, in one place.
 
-👨‍💻 Developer
+## 📌 Project Status
+
+PujaMate is being prepared as a public-facing Durga Puja platform for Durga Puja 2026.
+
+Features and data may continue to evolve as the platform is improved and more verified Puja information becomes available.
+
+## 👨‍💻 Developer
+
 Biprodip Das
 
 Built with ❤️ for the Durga Puja experience.
 
-⭐ Support the Project
-If you find PujaMate useful:
+## ⭐ If you like the project
 
-⭐ Star the repository on GitHub
+If you find PujaMate useful or interesting:
 
-🐛 Report issues or suggest improvements
-
-🤝 Contribute ideas!
+⭐ Star the repository
+🐛 Report issues
+💡 Suggest improvements
+🤝 Contribute ideas
