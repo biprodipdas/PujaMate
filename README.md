@@ -98,6 +98,8 @@ The route planner supports different travel modes where available:
 
 Users can also add multiple stops and generate a route for their Puja journey.
 
+
+
 🚇 4. Metro Route
 
 Explore Kolkata Metro information while planning your Puja trip.
